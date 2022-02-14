@@ -10,15 +10,17 @@ Practica de programación de robot seguidor de linea con IDE Arduino
 - HC-SR04 = Sensor ultrasonido de distancia (3x)  
 - TCRT5000 = Sensor infrarrojo de proximidad (2x)  
 - LCD I2C = Pantalla lcd  
-- Buzzer activo + R100Ω  
+- Buzzer activo + R100Ω
+- Pulsador 1 + R10kΩ
+- Pulsador 2 + R10kΩ
 - L298N = Controlador de motores  
 - TCST2103 = Foto interruptor para decoder (2x)
 
 
 *** Pines de conexion ***  
 
-A0 = Sensor ultrasonido-Echo (Digital)
-A1 = Sensor ultrasonido-Trigger (Digital)  
+A0 = Pulsador 1  
+A1 = Pulsador 2  
 A2 = Sensor línea izquierda TCRT5000 (Digital)
 A3 = Sensor línea derecha TCRT5000 (Digital)
 A4 = D18 = I2C LCD (SCA)
@@ -35,6 +37,6 @@ D7 = IN1 motor derecho
 D8 = IN2 motor derecho
 D9-= IN3 motor izquierdo
 D10-= IN4 motor izquierdo
-D11-= IR Remote
-D12 = 
-D13 = 
+D11-= Sensor frontal ultrasonido  
+D12 = Sensor derecho ultrasonido  
+D13 = Sensor izquierdo ultrasonido
